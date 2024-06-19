@@ -19,6 +19,7 @@ html, body {
     padding: 10px;
     gap: 10px;
     border-bottom: 2px solid rgba(255,255,255,0.5);
+    height: 135px;
 }
 
 .nav_header {
@@ -29,4 +30,30 @@ html, body {
 .nav_header a {
     text-decoration: none;
     color: white;
+}
+
+.main-content {
+    margin: 190px 10px 0px 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social_medias {
+    display: flex;
+    justify-content: center;
+}
+
+.social_medias a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-weight: bold;
 }
