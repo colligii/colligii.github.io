@@ -48,6 +48,7 @@ html, body {
 .social_medias {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .social_medias a {
@@ -63,6 +64,11 @@ html, body {
     font-weight: bold;
 }
 
+.linkedin {
+    color: #0e76a8 !important;
+    border-color: #0e76a8 !important;
+}
+
 .about, .expirence, .projects {
     color: white;
     display: flex;
@@ -74,7 +80,22 @@ html, body {
     padding-top: 150px;
 }
 
+.about, .expirence {
+
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expirence {
+    max-width: 400px;
+}
+
 .about h1 {
+    text-align: center;
+}
+
+#home h1 {
     text-align: center;
 }
 
@@ -128,4 +149,17 @@ html, body {
     padding: 10px;
     border: 1px solid white;
     border-radius: 11px;
+}
+
+@media screen and (min-width: 954px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .about {
+        max-width: 400px;
+    }
 }
