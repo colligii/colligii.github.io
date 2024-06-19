@@ -7,6 +7,7 @@
 
 html, body {
     background: #303030;
+    height: 100%;
 }
 
 .header {
@@ -33,11 +34,12 @@ html, body {
 }
 
 .main-content {
-    margin: 190px 10px 0px 10px;
+    padding: 190px 10px 0px 10px;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 98%;
 }
 
 .social_medias {
@@ -56,4 +58,13 @@ html, body {
     border: 2px solid white;
     border-radius: 12px;
     font-weight: bold;
+}
+
+.about {
+    color: white;
+    
+}
+
+.about h1 {
+    text-align: center;
 }
