@@ -115,3 +115,17 @@ html, body {
 .expirence-container ol {
     padding-left: 40px;
 }
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    width: 270px;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 11px;
+}
