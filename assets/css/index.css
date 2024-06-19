@@ -21,6 +21,7 @@ html, body {
     gap: 10px;
     border-bottom: 2px solid rgba(255,255,255,0.5);
     height: 135px;
+    background: #303030;
 }
 
 .nav_header {
@@ -34,10 +35,11 @@ html, body {
 }
 
 .main-content {
-    padding: 190px 10px 0px 10px;
+    padding: 100px 10px 0px 10px;
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
     height: 98%;
 }
@@ -62,7 +64,11 @@ html, body {
 
 .about {
     color: white;
-    
+    display: flex;
+    flex-direction: column;
+    padding:  10px;
+    gap: 10px;
+    align-items: center;
 }
 
 .about h1 {
