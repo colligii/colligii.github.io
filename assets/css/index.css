@@ -21,6 +21,7 @@ html, body {
     gap: 10px;
     border-bottom: 2px solid rgba(255,255,255,0.5);
     height: 135px;
+    z-index: 3000;
     background: #303030;
 }
 
@@ -62,15 +63,55 @@ html, body {
     font-weight: bold;
 }
 
-.about {
+.about, .expirence {
     color: white;
     display: flex;
     flex-direction: column;
     padding:  10px;
     gap: 10px;
     align-items: center;
+    height: 98%;
+    padding-top: 150px;
 }
 
 .about h1 {
     text-align: center;
+}
+
+.expirence-rank-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.expirence-bar {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    padding: 2px;
+    margin-left: 3px;
+    border-radius: 4px;
+    background: white;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    background: white;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.expirence-container {
+    padding-left: 18px;
+}
+
+.expirence-container ol {
+    padding-left: 40px;
 }
